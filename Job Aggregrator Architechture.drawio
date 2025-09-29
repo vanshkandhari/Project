@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram id="NY7KHTb2tWs4_XRKZLWw" name="Page-1">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="BI_Report" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="607" y="310" width="265" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ETL_Process" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="8" width="579" height="737" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Source System" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="51" y="33" width="223" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Bronze Layer" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="58" y="171" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Silver Layer" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="66" y="335" width="193" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Golden Layer" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="156" y="516" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Final Report" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="161" y="654" width="198" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="ETL Process" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="660" width="143" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Power BI Report" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="642" y="339" width="195" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="SERP API" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0.38;entryY=0.01;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Google Jobs API" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0.79;entryY=0.01;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Ingestion of API Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Structuring and Standardization of Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Ready for BI/Dashboards" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Create a BI Report using Golden Layer" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.72;entryY=0;" parent="1" source="10" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="426" />
+              <mxPoint x="370" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
